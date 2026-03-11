@@ -1,0 +1,25 @@
+{
+  "name": "Parcel Ledger",
+  "short_name": "Parcel",
+  "description": "ระบบจัดการพัสดุและบัญชี",
+  "start_url": "/parcel-ledger/",
+  "scope": "/parcel-ledger/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAFC",
+  "theme_color": "#6366F1",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%236366F1'/><text y='130' x='30' font-size='120'>📦</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%236366F1'/><text y='370' x='60' font-size='320'>📦</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "lang": "th"
+}
