@@ -1651,6 +1651,19 @@ function liveCalc(){
   if(body)body.innerHTML=rfBodyHTML();
 }
 
+function logout(){
+  S.sess=null;
+  S.recs=[];
+  S.prods=[];
+  S.salesData=[];
+  S.tab='home';
+  S.recForm=null;
+  S.prodForm=null;
+  S.profileOpen=false;
+  clearSession();
+  render();
+}
+
 function bind(){
   document.querySelectorAll("[data-tab]").forEach(el=>el.addEventListener("click",()=>setTab(el.dataset.tab)));
   if(S.barcodeP?.sku){
